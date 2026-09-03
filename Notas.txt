@@ -16,6 +16,7 @@ Primer ejercicio.
 *Commandos Git
 	[git init- Crea un repositorio de Git de forma local]
 	[staging area- Es una zona de espera previa a guardar cosas o commits]
+<<<<<<< HEAD
 	[git commit-m "Mensaje" Es un checkpoint, es un marcador de avance o progreso]
 	[git status- ermite ver el estado de la undi]
 	[git cat]
@@ -41,3 +42,4 @@ ssh-keygen -t ed25519 -C "jesusf2312@outlook.es"
 
 [git remote add origin git@github.com:Jesusf23/my_first_reo.git] Permite conectar mi repositorio local con el repositorio de GitHub en la nube.
 [git remote -v] Permite ver el nombre y la dirección del repositorio al que está anclado, por defecto el nombre es "origin" y posterior dice la dirección remota en Github.
+[git pull origin main] Esta instrucción conecta el repositorio local con el de la nube. Conecta la rama local "origin" con una nueva rama o la rama virtual de GitHub "main". En mi caso, esta rama virtual es "master".
