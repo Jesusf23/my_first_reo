@@ -1,0 +1,43 @@
+¿Qué es Git?
+- Un controlador de versiones. Del estilo de Google Drive.
+¿Por qué es importante?
+- Es una herramienta popular para coordinar trabajo en paralelo.
+
+Primer ejercicio.
+*Crear repositorio.
+	Crear carpeta
+	En visual, ejecutar terminal Gitbash
+	[pwd-Muestra la ruta del directorio actual]
+	[ls-Muestra un listado del contenido de la carpeta actual]
+	[touch-Crea un archivo txt]
+	[mkdir-Crea una carpeta dentro de la ruta actual]
+	[ls -lta- Permite ver el listado de archivos dentro del repositorio actual incluyendo los archivos ocultos]
+	
+*Commandos Git
+	[git init- Crea un repositorio de Git de forma local]
+	[staging area- Es una zona de espera previa a guardar cosas o commits]
+	[git commit-m "Mensaje" Es un checkpoint, es un marcador de avance o progreso]
+	[git status- ermite ver el estado de la undi]
+	[git cat]
+	[git log- Permite ver el historial de commits]
+	[git checkout <commithash> -Permite regresar a una versión anterior]
+	
+
+
+GITHUB
+
+Es el repositorio en la Nube.
+Dentro de mi usuario, se creó un repositorio.
+Existen dos tipos de repositorios [Públicos/Privados]
+Es recomendable tener siempre un README
+Es recomendable incluir una licencia.
+
+HHTPS
+SSH-->Es protegido por llaves y la transferencia de información sea más segura y protegida.
+ Una buena práctica es tener esta llave.
+
+Crear una llave SSH
+ssh-keygen -t ed25519 -C "jesusf2312@outlook.es"
+
+[git remote add origin git@github.com:Jesusf23/my_first_reo.git] Permite conectar mi repositorio local con el repositorio de GitHub en la nube.
+[git remote -v] Permite ver el nombre y la dirección del repositorio al que está anclado, por defecto el nombre es "origin" y posterior dice la dirección remota en Github.
